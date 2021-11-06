@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "AEDR-8600")(type "KiCad")(uri "${KIPRJMOD}/AEDR-8600.kicad_sym")(options "")(descr ""))
+)
