@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "encoder-wheel-1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
