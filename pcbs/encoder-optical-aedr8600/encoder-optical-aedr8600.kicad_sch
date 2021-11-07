@@ -883,7 +883,7 @@
     (uuid c25c6840-7de0-4db3-8816-c02818b30f6d)
     (property "Reference" "R101" (id 0) (at 123.19 81.28 90))
     (property "Value" "180" (id 1) (at 123.19 83.82 90))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 123.19 89.408 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 123.19 89.408 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 87.63 0)
@@ -997,7 +997,7 @@
     (property "Value" "1u" (id 1) (at 160.02 63.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 157.1752 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 157.1752 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 156.21 62.23 0)
@@ -1087,7 +1087,7 @@
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/c6c672db-068e-4740-ab56-9c092c78c067"
-      (reference "C101") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C101") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/45c6ecd8-a666-483e-b413-617f0b8cd1b4"
       (reference "D101") (unit 1) (value "blue") (footprint "LED_SMD:LED_0402_1005Metric")
@@ -1096,7 +1096,7 @@
       (reference "J101") (unit 1) (value "BM05B-GHS") (footprint "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical")
     )
     (path "/c25c6840-7de0-4db3-8816-c02818b30f6d"
-      (reference "R101") (unit 1) (value "180") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R101") (unit 1) (value "180") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/e3edd19c-0408-44a8-a760-08b1389d72ad"
       (reference "R102") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
