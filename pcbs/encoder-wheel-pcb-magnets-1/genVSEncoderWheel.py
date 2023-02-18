@@ -8,7 +8,7 @@ innerDiameter = 53.5 #mm
 
 # magnet ring
 magnetCount = 92 # has to be even
-magnetCenterlineDiameter = 58.7 #mm
+magnetCenterlineDiameter = 58.57 #mm
 magnetDiameter = 1.5 #mm
 
 filename = 'VSEncoderWheel.pcbnew'
