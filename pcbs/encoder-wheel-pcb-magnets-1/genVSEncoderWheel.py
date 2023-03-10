@@ -10,8 +10,9 @@ innerDiameter = 53.5 #mm
 magnetCount = 92 # has to be even
 magnetCenterlineDiameter = 58.57 #mm
 magnetDiameter = 1.5 #mm
+holeSizeReduction = 0.05 #mm make hole smaller because manufacturing
 
-filename = 'VSEncoderWheel.pcbnew'
+filename = 'VSEncoderWheel.kicad_pcb'
 ########################################################
 
 
@@ -84,7 +85,7 @@ for i in range(0,magnetCount):
     r = magnetCenterlineDiameter/2.0
     magnetCenter = (float(center[0] + r * np.cos(magnetAngle)), float(center[1] + r * np.sin(magnetAngle)))
     print(magnetCenter)
-    drawCircle(board, magnetCenter, magnetDiameter)
+    drawCircle(board, magnetCenter, magnetDiameter-holeSizeReduction)
     if ( i % 2 ) == 0:
         print("drawMarker")
         drawMarker( board, center, innerDiameter/2, magnetCenterlineDiameter/2, magnetAngle )
